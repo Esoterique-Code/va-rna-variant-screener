@@ -1,0 +1,11 @@
+name: va-rna-variant-screener
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11
+  - pip
+  - streamlit=1.67.0
+  - pandas=3.1.1
+  - plotly=7.1.0
+  - bbmap   # optional: bbduk engine for real-size FASTQs
